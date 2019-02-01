@@ -1,6 +1,7 @@
 {
   "name": "barts-now-app",
   "version": 2,
+  "alias": ["barts-now-app.now.sh"],
   "builds": [
     { "src": "*.html", "use": "@now/static" },
     { "src": "*.js", "use": "@now/static" }
